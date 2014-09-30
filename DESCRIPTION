@@ -1,8 +1,14 @@
 Package: nautier
-Title: What the package does (one line)
-Version: 0.1
-Authors@R: "First Last <first.last@example.com> [aut, cre]"
-Description: What the package does (one paragraph)
-Depends: R (>= 3.1.1)
-License: What license is it under?
+Title: Graph Canonical Labeling and Automorphism Group Computation
+Version: 2.5-9
+Author: Brendan McKay [aut, cph], Adolfo Piperno [aut, cph]
+Maintainer: Gabor Csardi <csardi.gabor@gmail.com>
+Description: nauty and Traces are programs for computing automorphism
+    groups of graphs. They can also produce a canonical label. There is a
+    small suite of programs called gtools included in the package. For
+    example, geng can generate non-isomorphic graphs very quickly. There
+    are also generators for bipartite graphs, digraphs, and multigraphs,
+    and programs for manipulating files of graphs in a compact format.
+License: file LICENSE
+Copyright: Brendan McKay, Adolfo Piperno
 LazyData: true
